@@ -1,0 +1,33 @@
+.hero-banner {
+  background: linear-gradient(135deg, #f8f9fa 50%, #ecf0f1 50%);
+  padding: 60px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-banner__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-banner__img img {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hero-banner__content {
+  padding: 20px;
+}
+
+.hero-banner__content h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.hero-banner__content p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
